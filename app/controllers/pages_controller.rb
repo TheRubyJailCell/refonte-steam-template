@@ -3,4 +3,10 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def magasin
+  end
+
+  def deadbydaylight
+  end
 end

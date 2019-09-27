@@ -1,4 +1,4 @@
-// Graphical variables
+/*// Graphical variables
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
@@ -10,5 +10,520 @@
 
 // Your CSS partials
 @import "components/index";
-@import "pages/index";
+@import "pages/index";*/
 
+body{
+	background-color: #1D2024;
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	font-family: 'Poppins regular', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	color: white;
+}
+h2{
+	font-family: 'Poppins regular', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 10px;
+	color: white;
+}
+h1{
+	font-family: 'Poppins regular', sans-serif;
+	font-size: 28px;
+	font-weight: 100;
+	color: white;
+}
+h3{
+	font-family: 'Poppins regular', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+h4{
+	font-family: 'Poppins bold', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+/*HEADER*/
+/*Il y a 3 div:
+1)Logo
+2)Menu
+3)Bouton et User*/
+.header{
+    background-color: #212C4D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6em;
+}
+.divh1_logo_header{
+	max-width: 100%;
+	margin:10px;
+}
+.divh2{
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+.divh2>a{
+	text-decoration: none;
+}
+.divh2_loupe{
+	width: 5%;
+}
+.divh3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    width: 15%;
+}
+/*BOUTON INSTALLER STEAM*/
+.divh6_boutoninstall {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1466b8), color-stop(1, #2d75bd));
+	background:-moz-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-webkit-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-o-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-ms-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:linear-gradient(to bottom, #1466b8 5%, #2d75bd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1466b8', endColorstr='#2d75bd',GradientType=0);
+	background-color:#1466b8;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Poppins regular", sans-serif;
+	font-size:12px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #185796;
+	font-weight: 100;
+	min-width: 40%;
+	margin-right: 6%;
+}
+.divh6_boutoninstall:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d75bd), color-stop(1, #1466b8));
+	background:-moz-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-webkit-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-o-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-ms-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:linear-gradient(to bottom, #2d75bd 5%, #1466b8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d75bd', endColorstr='#1466b8',GradientType=0);
+	background-color:#2d75bd;
+}
+.divh6_boutoninstall:active {
+	position:relative;
+	top:1px;
+}
+/*FIN DU HEADER*/
+
+/*CORPS DE LA PAGE D'ACCEUIL*/
+/*BLOC 1*/
+.bloc1_acceuil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloc1_acceuil_1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+
+}
+.bloc1_acceuil_1_1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+.h1-1{
+	margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-align: center;
+}
+.j1{
+	margin-top: 100px;
+}
+/*BOUTON 1*/
+.Bouton_1 {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1466b8), color-stop(1, #2d75bd));
+	background:-moz-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-webkit-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-o-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-ms-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:linear-gradient(to bottom, #1466b8 5%, #2d75bd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1466b8', endColorstr='#2d75bd',GradientType=0);
+	background-color:#1466b8;
+	-moz-border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Poppins regular", sans-serif;
+	font-size:13px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #185796;
+	font-weight: 100;
+}
+.Bouton_1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d75bd), color-stop(1, #1466b8));
+	background:-moz-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-webkit-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-o-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-ms-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:linear-gradient(to bottom, #2d75bd 5%, #1466b8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d75bd', endColorstr='#1466b8',GradientType=0);
+	background-color:#2d75bd;
+}
+.Bouton_1:active {
+	position:relative;
+	top:1px;
+}
+/*BLOC 2*/
+.bloc2_acceuil{
+	text-align: center;
+	margin-top: 80px;
+}
+.planisphere{
+	width: 30%;	
+}
+/*BLOC 3*/
+.bloc3_acceuil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.bloc3_acceuil_1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 100px;
+}
+.bloc3_acceuil_2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.number{
+	font-size: 20px;
+}
+/*BLOC 4*/
+.bloc4_acceuil{
+	background-image: url(image/fond1.svg);
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.paramag{
+	margin-top: 25px;
+}
+.lienmag{
+	font-family: 'Poppins';
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.lienmag:hover{
+	color: #707070;
+}
+/*BLOC 5*/
+.bloc5_acceuil{
+	background-image: url(image/fond2.svg);
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+/*BLOC 6*/
+.bloc6_acceuil{
+	background-image: url(image/fond3.svg);
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+/*FOOTER*/
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;	    
+}
+/*PAGE MAGASIN*/
+/*BARRE MAG*/
+.barremag {
+	background-color: #212c4d;
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 21px;
+    text-align: center;
+}
+.barremagbloc1{
+	background-color: #212c4d;
+	width: 25%;
+	height: 100%;
+	border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    display: flex;
+    align-items: center;
+}
+.barremagbloc1:hover{
+	background-color: #FF7F35;
+}
+.barremagbloc2{
+	background-color: #212c4d;
+	width: 25%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+}
+.barremagbloc2:hover{
+	background-color: #FF7F35;
+}
+.barremagbloc3{
+	background-color: #212c4d;
+	width: 25%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+}
+.barremagbloc3:hover{
+	background-color: #FF7F35;
+}
+.barremagbloc4{
+	background-color: #212c4d;
+	width: 25%;
+	height: 100%;
+	border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    display: flex;
+    align-items: center;
+}
+.barremagbloc4:hover{
+	background-color: #FF7F35;
+}
+/*BLOC JEU*/
+.cont1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cont1_1 img
+{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+}
+.cont1_1 img:hover
+{
+        filter: saturate(200%);
+        -webkit-filter: saturate(200%);
+        -moz-filter: saturate(200%);
+        -o-filter: saturate(200%);
+        -ms-filter: saturate(200%);
+}
+.cont2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cont2_1{
+	width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cont2_1 img
+{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+}
+.cont2_1 img:hover
+{
+        filter: saturate(200%);
+        -webkit-filter: saturate(200%);
+        -moz-filter: saturate(200%);
+        -o-filter: saturate(200%);
+        -ms-filter: saturate(200%);
+}
+.djmtop{
+	margin-top: 13px;
+}
+.cont2titre{
+	display: flex;
+	justify-content: center;
+    margin-top: 30px;
+}
+.footerr {
+    background-color: #212C4D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6em;
+    margin-top: 100px;
+}
+.Bouton_2 {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1466b8), color-stop(1, #2d75bd));
+	background:-moz-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-webkit-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-o-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:-ms-linear-gradient(top, #1466b8 5%, #2d75bd 100%);
+	background:linear-gradient(to bottom, #1466b8 5%, #2d75bd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1466b8', endColorstr='#2d75bd',GradientType=0);
+	background-color:#1466b8;
+	-moz-border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Poppins regular", sans-serif;
+	font-size:13px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #185796;
+	font-weight: 100;
+	width: 100px;
+	text-align: center;
+}
+.Bouton_2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d75bd), color-stop(1, #1466b8));
+	background:-moz-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-webkit-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-o-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:-ms-linear-gradient(top, #2d75bd 5%, #1466b8 100%);
+	background:linear-gradient(to bottom, #2d75bd 5%, #1466b8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d75bd', endColorstr='#1466b8',GradientType=0);
+	background-color:#2d75bd;
+}
+.Bouton_2:active {
+	position:relative;
+	top:1px;
+}
+.blocdead1{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.blocdead1_1{
+	background-image: url(image/dead2.svg);
+	background-size: cover;
+    width: 30%;
+    margin-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blocdead1_2{
+	text-align: center;
+	height: 1000px;
+    width: 30%;
+}  
+.taille12{
+	font-size: 12px;
+	text-align: justify;
+} 
+.boutonacheter {
+	-moz-box-shadow: 0px 0px 0px 0px #3dc21b;
+	-webkit-box-shadow: 0px 0px 0px 0px #3dc21b;
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#ff7f35;
+	-moz-border-radius:32px;
+	-webkit-border-radius:32px;
+	border-radius:32px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.boutonacheter:hover {
+	background-color:#212c4d;
+}
+.boutonacheter:active {
+	position:relative;
+	top:1px;
+} 
+.like_name{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+  }
+
+.boitelikename{
+	display: flex;
+	flex-direction: column;
+}
+.dead8_dead9{
+	display: flex;
+	justify-content: center;
+}
+.dead8_dead9 img
+{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+}
+.dead8_dead9 img:hover
+{
+        filter: saturate(200%);
+        -webkit-filter: saturate(200%);
+        -moz-filter: saturate(200%);
+        -o-filter: saturate(200%);
+        -ms-filter: saturate(200%);
+}
+.dead10-11-12 img
+{
+        filter: saturate(100%);
+        -webkit-filter: saturate(100%);
+        -moz-filter: saturate(100%);
+        -o-filter: saturate(100%);
+        -ms-filter: saturate(100%);
+        margin-bottom: 10px;
+}
+.dead10-11-12 img:hover
+{
+        filter: saturate(200%);
+        -webkit-filter: saturate(200%);
+        -moz-filter: saturate(200%);
+        -o-filter: saturate(200%);
+        -ms-filter: saturate(200%);
+}
